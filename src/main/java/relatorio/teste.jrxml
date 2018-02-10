@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="87514371-3847-4d0a-a803-df9f5eeecba6">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="p1" class="String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="p2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="p3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="p4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="d1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="d2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="d3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="d4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="c1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="c2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="c3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="c4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="dhc1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="dhc2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="dhc3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="dhc4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="m1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="m2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="m3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="m4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="e1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="e2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="e3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="e4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="s1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="s2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="s3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="s4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="a1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="a2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="a3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="a4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ab1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ab2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ab3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ab4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="r1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="r2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="r3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="r4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="q1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="q2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="q3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="q4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ac1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ac2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ac3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ac4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_q1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_q2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_q3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_q4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_a1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_a2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_a3" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="al_a4" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="titulo" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="dataI" class="java.util.Date">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="dataF" class="java.util.Date">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="local" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="id" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT t.titulo as t_titulo,
+ac.pontualidade as p1, ac.pontualidade as p2, ac.pontualidade as p3,
+ac.pontualidade as p4, ac.dominio_assunto as d1, ac.dominio_assunto as d2,
+ac.dominio_assunto as d3, ac.dominio_assunto as d4,ac.clareza as c1,
+ac.clareza as c2, ac.clareza as c3, ac.clareza as c4, ac.distr_ch as dch1,
+ac.distr_ch as dch2, ac.distr_ch as dch3, ac.distr_ch as dch4,
+ac.motiv_grupo as m1, ac.motiv_grupo as m2, ac.motiv_grupo as m3,
+ac.motiv_grupo as m4, ac.escl_duvidas as e1, ac.escl_duvidas as e2,
+ac.escl_duvidas as e3, ac.escl_duvidas as e4 FROM evento e, aval_curso ac, tema_curso t
+WHERE t.evento_id = e.id and e.id = $P{id};]]>
+	</queryString>
+	<field name="t_titulo" class="java.lang.String"/>
+	<field name="p1" class="java.lang.String"/>
+	<field name="p2" class="java.lang.String"/>
+	<field name="p3" class="java.lang.String"/>
+	<field name="p4" class="java.lang.String"/>
+	<field name="d1" class="java.lang.String"/>
+	<field name="d2" class="java.lang.String"/>
+	<field name="d3" class="java.lang.String"/>
+	<field name="d4" class="java.lang.String"/>
+	<field name="c1" class="java.lang.String"/>
+	<field name="c2" class="java.lang.String"/>
+	<field name="c3" class="java.lang.String"/>
+	<field name="c4" class="java.lang.String"/>
+	<field name="dch1" class="java.lang.String"/>
+	<field name="dch2" class="java.lang.String"/>
+	<field name="dch3" class="java.lang.String"/>
+	<field name="dch4" class="java.lang.String"/>
+	<field name="m1" class="java.lang.String"/>
+	<field name="m2" class="java.lang.String"/>
+	<field name="m3" class="java.lang.String"/>
+	<field name="m4" class="java.lang.String"/>
+	<field name="e1" class="java.lang.String"/>
+	<field name="e2" class="java.lang.String"/>
+	<field name="e3" class="java.lang.String"/>
+	<field name="e4" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="164" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="9ee6b7a0-77ec-466d-b6f8-218290fafacd" x="0" y="0" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[GRUPO DE EDUCAÇÃO FISCAL - GEFI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="16f1f9e8-1b9c-4cb0-aac5-981350cfd616" x="0" y="37" width="210" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RELATÓRIO DE AVALIAÇÃO]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="cb1ce112-b600-498b-85ac-81c9f5fad027" x="0" y="64" width="510" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Evento: " + $P{titulo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="930ffabf-56f1-4a80-b2a9-17ab042ebdb4" x="0" y="84" width="228" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Período: " + $P{dataI} + " a " + $P{dataF}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d9f32026-92b1-439f-b57c-842643915307" x="0" y="104" width="123" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Local: " + $P{local}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="9e499cc7-3dde-4260-98c9-0bb50fdc8c9e" x="297" y="142" width="46" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ótimo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1eb2ed72-cbce-4777-9bf2-3804aada86eb" x="356" y="142" width="46" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bom]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="73d85d8d-1f0c-4c51-8688-219c6a8f1269" x="417" y="142" width="46" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Regular]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f86b5dcd-6115-462d-9bdc-bf5b0f2b657c" x="488" y="142" width="46" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fraco]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="177" splitType="Stretch">
+			<textField>
+				<reportElement uuid="166c01ea-26fc-41e5-8a8b-ed0c0ce4a74b" x="0" y="0" width="186" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{t_titulo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="9d2fcb7b-5df5-4e56-a90f-d2facf6bd097" x="0" y="20" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Pontualidade]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9aa9e461-959b-4359-8f69-504534a37142" x="0" y="42" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Domínio do assunto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4243997b-ec0d-42f1-b40c-2fd61174fd01" x="0" y="64" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Clareza na exposição]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9604564d-04cc-4ae3-9b3b-520b9ef7ae75" x="0" y="86" width="296" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Distribuição do conteúdo em função da carga horária]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4b84247b-10d4-4f25-b3a7-28608b9632b5" x="0" y="108" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Motivação do grupo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="041a3240-d94d-4202-99c3-039db31e1cc6" x="0" y="130" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Esclarecimento de dúvidas]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="bb2216a2-891e-4ecf-8481-d38211365d24" x="297" y="86" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dch4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5d8129b7-7b73-48a8-b7f1-aca80db2347d" x="296" y="64" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{c4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5f0b9ea5-20bd-46c0-9408-dfe6882f38bf" x="296" y="20" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="171dee70-fde9-4e04-b65c-a95b37f47a3f" x="297" y="130" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{e4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="49ae24ef-8fcd-4457-b0c2-996e2925c26b" x="297" y="108" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{m4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3248eab0-f22c-48bf-ad24-70a07efb5c00" x="296" y="42" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{d4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4c692e08-3369-46ef-a24b-22e94db8d007" x="356" y="18" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4ecc9e35-0405-4ae6-9a96-bd407dd9215e" x="356" y="40" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{d3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ee051980-c564-4432-a671-bb3b0d8c37d4" x="357" y="128" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{e3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="beeaf87a-bac8-4b85-a664-0bec0d66ff10" x="356" y="62" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{c3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b52f9b4a-5179-473b-9738-7d2aa4af0316" x="357" y="84" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dch3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="6527c6be-9761-42b8-9e00-9b782a27b9b6" x="357" y="106" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{m3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4cb0739b-992b-4879-b00c-9a406700f5a4" x="488" y="18" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="091922a3-1b30-4c93-beb2-4ee0853f74a1" x="488" y="40" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{d1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="a1e484e7-4bfe-4d2a-b869-b49614ea7bf4" x="489" y="128" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{e1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3faa68c3-c949-4a84-a5c1-f7c5fb89f30b" x="488" y="62" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{c1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1335f9af-b4b0-43b5-8ed9-d14ccb3360b1" x="489" y="84" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dch1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="64afd053-e50e-454c-8c01-8deae32e175e" x="489" y="106" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{m1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="20428151-70cf-4510-8891-3a6214dbb81d" x="417" y="20" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b7d3f231-f24b-4254-96c7-227932bc0884" x="417" y="42" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{d2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="38354b23-40a5-4ae1-90ae-3807549d48d6" x="418" y="130" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{e2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="229e239f-bc02-4d24-85ee-bd58fa645404" x="417" y="64" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{c2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="16dbce26-b78d-44ac-a01d-180249c3fcb4" x="418" y="86" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dch2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ea2b3ec4-5e65-41c9-96b8-896ec10a7d26" x="418" y="108" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{m2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="12" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="16" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="225" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="80c182d2-fa59-44ac-a6fa-436249a9c028" x="0" y="66" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Relevância dos temas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6d80ae42-30ce-4ca1-b284-09bff878e917" x="0" y="44" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Abrangência do conteúdo ministrado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c09319da-8342-4926-8ff9-56dd913afc55" x="0" y="168" width="252" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Qualidade do serviço de recepção e apoio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9427838a-8fe7-4fc3-8626-fd53cb42b292" x="0" y="88" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Qualidade do material didático]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3c7bc962-a5d1-4236-8c0c-52d499bede1f" x="0" y="190" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Adequacao das instalações físicas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e454e5e3-97be-46cf-b32e-22f540d3a288" x="0" y="0" width="210" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Avaliação do Evento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="64292be0-ae04-473b-b1b9-0903e82024bd" x="0" y="148" width="210" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Apoio Logístico]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="28b7264d-3bcf-45f3-94e2-d800218257e9" x="0" y="110" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Atuação da coordenação]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1d646b4c-c80a-411e-82c1-65b9558fe3a2" x="0" y="22" width="228" height="22"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Satisfação em relação ao evento]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="82a482f6-2477-461e-a7f1-b96e375b31da" x="417" y="20" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{s2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="597fbb31-7181-437d-b515-408e89ebb88e" x="296" y="64" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{r4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="18a6ed32-ad3b-49a5-a3a2-7709b59e3d64" x="297" y="86" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{q4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d8d28401-4230-41f0-852a-8c8bd3d70113" x="488" y="18" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{s1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="cfd10767-d813-4db4-ac19-7694ee1230c5" x="489" y="106" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ac1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="64cd6c67-b4de-4ac8-ba10-395823aeacfa" x="417" y="42" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{a2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="2f79f482-0766-4dfb-b5ce-18dbe8b7e3ff" x="489" y="84" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{q1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b0e90179-b8c4-4116-b0ca-848095a552f4" x="357" y="84" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{q3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e094b5a3-6f53-49b2-8b91-90d22f0f4c10" x="418" y="86" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{q2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5e371613-0436-4a6b-adb7-c4edf5a6a61a" x="418" y="108" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ac2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ea8c3455-9a12-4996-bc8c-7529b792f957" x="357" y="168" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_q3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b351753a-a7f2-480b-b235-073b6bff8fbb" x="297" y="108" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ac4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3ca5ca2f-9c3c-4fbd-856e-5e830e3c5662" x="417" y="64" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{r2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0d6a0690-9390-4879-b516-a14a7fb4ccd6" x="356" y="62" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{r3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="9faa09e8-c5a8-49ca-9d75-09ffc42911b3" x="488" y="40" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{a1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="6b9b3b7c-0b40-40a1-a383-490728e529ed" x="418" y="170" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_q2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f3a224b3-a8a4-4c7e-a52e-d2d71d37db28" x="296" y="42" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{a4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="97f9f37c-b578-40a2-9aa7-bb9d6212d8bc" x="489" y="168" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_q1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b7f56b4a-d15b-45ed-b8ba-8b6c5442d567" x="356" y="40" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{a3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="64d52ea3-9dfe-4499-b199-b258b7ace4c3" x="357" y="106" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ac3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d3024276-9163-42d3-b58b-ef21295be0ba" x="488" y="62" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{r1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0e741f29-4d0e-4557-a177-0c0334984b4d" x="297" y="170" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_q4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b200061b-1a34-4d72-81ea-ede140dca9c9" x="296" y="20" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{s4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4e6cd1a0-e360-49f0-be16-2ec1216ba63b" x="356" y="18" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{s3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="475489d1-6bb2-428a-a4b2-a29300a0a8f7" x="297" y="190" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_a4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="fa33f5a2-9952-4fa6-8990-619e72252485" x="418" y="190" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_a2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ccfe28e3-12bb-4987-ba7e-9caeeaa71a48" x="357" y="188" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_a3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d9b079b7-1381-4e9f-bcbd-254ba6a5a3e7" x="489" y="188" width="47" height="20"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{al_a1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
